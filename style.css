@@ -1,3 +1,4 @@
+/* Estilo geral da página */
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +9,17 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* Navbar e header */
+.navbar-header {
+    background-color: #1F2937;
+    height: 500px;
+}
+
+/* Navbar */
 .nav-conteiner {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    background-color: black;
     align-items: center;
 }
 
@@ -31,4 +38,50 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* Header */
+.header-conteiner {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 8%;
+}
+
+.header-conteiner .hero-conteiner {
+    width: 50%;
+    margin-left: 15%;
+}
+
+.header-conteiner .hero-conteiner .hero-head {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-conteiner .hero-conteiner .hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 12px;
+}
+
+.header-conteiner .hero-conteiner .hero-sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.header-conteiner .header-image {
+    background-color: #e5e7eb71;
+    color: rgba(255, 255, 255, 0.904);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    width: 50%;
+    margin-right: 15%;
 }
