@@ -153,3 +153,40 @@ body {
     text-align: right;
     margin-right: 50px;
 }
+
+/* Call to action */
+.action-conteiner {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-conteiner .call-to-action {
+    background-color: #3882F6;
+    width: 950px;
+    height: 130px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.action-conteiner .call-to-action .action-text .action-title {
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+.action-conteiner .call-to-action .action-text .action-p {
+    color: #E5E7EB;
+}
+
+.action-conteiner .call-to-action .action-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+}
